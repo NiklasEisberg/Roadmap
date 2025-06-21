@@ -225,12 +225,12 @@
   </div>
 
  <script>
-  const DISCORD_CLIENT_ID = "DEINE_CLIENT_ID_HIER";
-  const REDIRECT_URI = "http://localhost:5500"; // z. B. deine Domain
-  const ADMIN_DISCORD_ID = "DEINE_ADMIN_ID_HIER"; // optional
+  const DISCORD_CLIENT_ID = "1386039835420000306"; // Deine Discord Client ID
+  const REDIRECT_URI = "https://niklaseisberg.github.io/Roadmap/roadmap.html"; // Deine Redirect URI
+  const ADMIN_DISCORD_ID = "926479835910508544"; // Discord ID des Admins
 
   function discordLogin() {
-    const url = `https://discord.com/api/oauth2/authorize?client_id=${DISCORD_CLIENT_ID}&redirect_uri=${encodeURIComponent(REDIRECT_URI)}&response_type=token&scope=identify`;
+    const url = `https://discord.com/api/oauth2/authorize?client_id=1386039835420000306&redirect_uri=https%3A%2F%2Fniklaseisberg.github.io%2FRoadmap%2Froadmap.html&response_type=token&scope=identify`;
     window.location.href = url;
   }
 
